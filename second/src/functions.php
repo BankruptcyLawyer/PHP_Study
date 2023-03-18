@@ -27,16 +27,14 @@
 		}
 		$middleAge = $allAges / sizeof($decode);
 	}
-	echo "<pre>";
-	print_r($decode);
-	echo "</pre>";
-	// $middleAge = $allAges / sizeof($decode);
+
 	$namesnumb = count($uniqueNames);
 	echo "Количество имён - $namesnumb" . "<br>";
 	echo "Средний возраст - $middleAge лет";
 
 echo "<br>";
 // task 2
+
 
 // task 3
 interface I_CarSharing{
