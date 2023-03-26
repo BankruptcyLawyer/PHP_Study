@@ -1,0 +1,12 @@
+{
+    "name": "a/a",
+    "description": "a",
+    "autoload": {
+        "psr-4": {
+            "Base\\": "base/",
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
